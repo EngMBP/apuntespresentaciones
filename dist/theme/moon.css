@@ -5,7 +5,7 @@
 @import url(./fonts/league-gothic/league-gothic.css);
 /**@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);**/
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -23,7 +23,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 :root {
   --r-background-color: #002b36;
-  --r-main-font: 'Source Code Pro', monospace;
+  --r-main-font: 'Ubuntu', sans-serif;
   --r-main-font-size: 20px;
   --r-main-color: #93a1a1;
   --r-block-margin: 20px;
