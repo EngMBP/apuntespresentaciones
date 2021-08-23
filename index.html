@@ -10,14 +10,19 @@
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/moon.css">
-
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
 
-<body>
+<body background-image= "assets/tiga.svg">
 	<div class="reveal">
 		<div class="slides">
+			<section >
+				<img src="assets/tiga.svg" class="r-stretch">
+			</section>
+			<section>
+				<h1> Documentos de google</h1>
+			</section>
 			<!-- seccion 1 -->
 
 			<section>
@@ -1084,6 +1089,7 @@
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
 	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/pdfexport/pdfexport.js"></script>
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
@@ -1091,8 +1097,10 @@
 		Reveal.initialize({
 			hash: true,
 			slideNumber: 'c/t',
+			controlsTutorial: true,
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			
 		});
 	</script>
 </body>
