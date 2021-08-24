@@ -377,7 +377,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .top-left{
   width: 15%;
-  height: 15% * 3.53;
   position: absolute;
   top: 1%;
   left: 40%;
@@ -386,7 +385,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .top-right{
   width: 15%;
-  height: 15%;
   position: absolute;
   bottom: 0%;
   left: 40%;
