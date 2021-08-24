@@ -386,7 +386,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .top-right{
   position: absolute;
   top: 1%;
-  right: -5%;
+  right: 0%;
   width: 20%;
   height: 20%;
 }
